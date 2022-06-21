@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 export default () => {
   return (
     <>
+      <Head>
+        <title>Ресторан Жирный бюргер | О нас</title>
+        <meta name='title' content='Ресторан Жирный бюргер' />
+      </Head>
       <h1>О нас</h1>
       <p>
         Жирные бургеры - это старые добрые бургеры по классической рецептуре,
